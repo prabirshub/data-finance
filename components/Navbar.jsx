@@ -38,7 +38,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className='md:hidden cursor-pointer' onClick={handleNav}>
-        {!isOpen ? (
+        {isOpen ? (
           <AiOutlineClose size={25} className='text-gray-100' />
         ) : (
           <AiOutlineMenu size={25} className='text-gray-100' />
@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div
         className={
-          !isOpen
+          isOpen
             ? 'fixed left-0 top-0 w-[60%] bg-[#000300] border-r border-r-gray-900 h-full z-30 ease-out duration-500 md:hidden'
             : 'fixed left-[-120%] ease-linear duration-500'
         }

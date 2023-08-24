@@ -31,7 +31,7 @@ const Hero = () => {
         </p>
         <div>
           <Link
-            className='inline-block px-6 py-3 md:py-4 md:px-8 bg-primary text-gray-950 rounded-md font-semibold hover:bg-primary/80 transition duration-300'
+            className='inline-block px-6 py-3 md:py-4 md:px-8 bg-primary text-gray-950 rounded-md font-semibold hover:bg-primary/80 transition duration-300 tracking-wider uppercase'
             href='/'
           >
             Get Started
